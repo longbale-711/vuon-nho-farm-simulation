@@ -1,0 +1,13 @@
+{
+  "name": "Orchard.Tests",
+  "references": [
+    "Orchard.Runtime",
+    "Orchard.Domain"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

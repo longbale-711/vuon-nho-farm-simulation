@@ -1,0 +1,3 @@
+PASS
+Build/upgrade UI, 6 plots, harvest/delivery/payment, 11-customer queue, management buffs and disk save passed.
+Sales: 17

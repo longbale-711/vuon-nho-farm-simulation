@@ -1,0 +1,13 @@
+{
+  "name": "Orchard.Editor",
+  "references": [
+    "Orchard.Runtime",
+    "Unity.TextMeshPro",
+    "Unity.TextMeshPro.Editor",
+    "Unity.ugui",
+    "Orchard.Domain"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

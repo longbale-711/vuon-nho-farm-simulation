@@ -1,0 +1,5 @@
+{
+  "name": "Orchard.Domain",
+  "rootNamespace": "Orchard",
+  "noEngineReferences": true
+}

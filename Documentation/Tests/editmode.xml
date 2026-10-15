@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="24" result="Passed" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:53Z" duration="0.0956823">
+  <test-suite type="TestSuite" id="1037" name="Vuon Nho" fullname="Vuon Nho" runstate="Runnable" testcasecount="24" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:53Z" duration="0.095682" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1070" name="Orchard.Tests.dll" fullname="Library/ScriptAssemblies/Orchard.Tests.dll" runstate="Runnable" testcasecount="24" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:53Z" duration="0.085444" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24029" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1071" name="Orchard" fullname="Orchard" runstate="Runnable" testcasecount="24" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:53Z" duration="0.085173" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1072" name="Tests" fullname="Orchard.Tests" runstate="Runnable" testcasecount="24" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:53Z" duration="0.085039" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1038" name="CropProgressionTests" fullname="Orchard.Tests.CropProgressionTests" classname="Orchard.Tests.CropProgressionTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.026906" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1039" name="FirstBuildCannotSpendTwiceOrMakeBalanceNegative" fullname="Orchard.Tests.CropProgressionTests.FirstBuildCannotSpendTwiceOrMakeBalanceNegative" methodname="FirstBuildCannotSpendTwiceOrMakeBalanceNegative" classname="Orchard.Tests.CropProgressionTests" runstate="Runnable" seed="96097909" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.011752" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1041" name="LocalAndGlobalBuffsStackWithoutAffectingOtherLocalPlants" fullname="Orchard.Tests.CropProgressionTests.LocalAndGlobalBuffsStackWithoutAffectingOtherLocalPlants" methodname="LocalAndGlobalBuffsStackWithoutAffectingOtherLocalPlants" classname="Orchard.Tests.CropProgressionTests" runstate="Runnable" seed="1091299807" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.003310" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1040" name="PlantLevelsFollowTenPercentOfBasePrice" fullname="Orchard.Tests.CropProgressionTests.PlantLevelsFollowTenPercentOfBasePrice" methodname="PlantLevelsFollowTenPercentOfBasePrice" classname="Orchard.Tests.CropProgressionTests" runstate="Runnable" seed="1521533046" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.001338" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1042" name="SaleUsesPriceAtHarvestEvenAfterUpgrades" fullname="Orchard.Tests.CropProgressionTests.SaleUsesPriceAtHarvestEvenAfterUpgrades" methodname="SaleUsesPriceAtHarvestEvenAfterUpgrades" classname="Orchard.Tests.CropProgressionTests" runstate="Runnable" seed="1128724497" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.000351" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1043" name="CurrencyTests" fullname="Orchard.Tests.CurrencyTests" classname="Orchard.Tests.CurrencyTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.008333" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1044" name="CurrencyExceedsDoubleRangeAndKeepsSingleCent" fullname="Orchard.Tests.CurrencyTests.CurrencyExceedsDoubleRangeAndKeepsSingleCent" methodname="CurrencyExceedsDoubleRangeAndKeepsSingleCent" classname="Orchard.Tests.CurrencyTests" runstate="Runnable" seed="2115263641" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.005276" asserts="0">
+              <properties />
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1048" name="CurrencyFormatting" fullname="Orchard.Tests.CurrencyTests.CurrencyFormatting" classname="Orchard.Tests.CurrencyTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.002108" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1045" name="CurrencyFormatting(150,&quot;150&quot;)" fullname="Orchard.Tests.CurrencyTests.CurrencyFormatting(150,&quot;150&quot;)" methodname="CurrencyFormatting" classname="Orchard.Tests.CurrencyTests" runstate="Runnable" seed="1193545337" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.000374" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1046" name="CurrencyFormatting(1250,&quot;1.25K&quot;)" fullname="Orchard.Tests.CurrencyTests.CurrencyFormatting(1250,&quot;1.25K&quot;)" methodname="CurrencyFormatting" classname="Orchard.Tests.CurrencyTests" runstate="Runnable" seed="1851057094" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.001172" asserts="0">
+                <properties />
+              </test-case>
+              <test-case id="1047" name="CurrencyFormatting(1000000,&quot;1M&quot;)" fullname="Orchard.Tests.CurrencyTests.CurrencyFormatting(1000000,&quot;1M&quot;)" methodname="CurrencyFormatting" classname="Orchard.Tests.CurrencyTests" runstate="Runnable" seed="1784651296" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.000047" asserts="0">
+                <properties />
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1049" name="ManagementProgressionTests" fullname="Orchard.Tests.ManagementProgressionTests" classname="Orchard.Tests.ManagementProgressionTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.001277" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1051" name="ManagementCapsPreventUnlimitedActorGrowth" fullname="Orchard.Tests.ManagementProgressionTests.ManagementCapsPreventUnlimitedActorGrowth" methodname="ManagementCapsPreventUnlimitedActorGrowth" classname="Orchard.Tests.ManagementProgressionTests" runstate="Runnable" seed="1140384466" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.000753" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1050" name="StartsWithOneCustomerAndUpgradeAddsTwo" fullname="Orchard.Tests.ManagementProgressionTests.StartsWithOneCustomerAndUpgradeAddsTwo" methodname="StartsWithOneCustomerAndUpgradeAddsTwo" classname="Orchard.Tests.ManagementProgressionTests" runstate="Runnable" seed="362746008" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.000090" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1052" name="NavigationTests" fullname="Orchard.Tests.NavigationTests" classname="Orchard.Tests.NavigationTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.027198" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1055" name="AStarMatchesDijkstraAcrossSeededObstacleMaps" fullname="Orchard.Tests.NavigationTests.AStarMatchesDijkstraAcrossSeededObstacleMaps" methodname="AStarMatchesDijkstraAcrossSeededObstacleMaps" classname="Orchard.Tests.NavigationTests" runstate="Runnable" seed="1296057035" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.015072" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1054" name="BlockedEndpointsAndDisconnectedDestinationsFail" fullname="Orchard.Tests.NavigationTests.BlockedEndpointsAndDisconnectedDestinationsFail" methodname="BlockedEndpointsAndDisconnectedDestinationsFail" classname="Orchard.Tests.NavigationTests" runstate="Runnable" seed="792766035" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.000212" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1056" name="EveryFarmHarvestAndMarketPointIsReachable" fullname="Orchard.Tests.NavigationTests.EveryFarmHarvestAndMarketPointIsReachable" methodname="EveryFarmHarvestAndMarketPointIsReachable" classname="Orchard.Tests.NavigationTests" runstate="Runnable" seed="1946472053" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.011147" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1053" name="PathCannotCutDiagonalCorner" fullname="Orchard.Tests.NavigationTests.PathCannotCutDiagonalCorner" methodname="PathCannotCutDiagonalCorner" classname="Orchard.Tests.NavigationTests" runstate="Runnable" seed="1852999666" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.000144" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1057" name="PersistenceTests" fullname="Orchard.Tests.PersistenceTests" classname="Orchard.Tests.PersistenceTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:53Z" duration="0.001711" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1059" name="InvalidSaveDoesNotPartiallyMutateEconomy" fullname="Orchard.Tests.PersistenceTests.InvalidSaveDoesNotPartiallyMutateEconomy" methodname="InvalidSaveDoesNotPartiallyMutateEconomy" classname="Orchard.Tests.PersistenceTests" runstate="Runnable" seed="164697910" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:52Z" duration="0.000707" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1058" name="SnapshotRestoresAllPurchasesExactly" fullname="Orchard.Tests.PersistenceTests.SnapshotRestoresAllPurchasesExactly" methodname="SnapshotRestoresAllPurchasesExactly" classname="Orchard.Tests.PersistenceTests" runstate="Runnable" seed="1347660689" result="Passed" start-time="2026-10-14 17:12:52Z" end-time="2026-10-14 17:12:53Z" duration="0.000485" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1060" name="ProgressRegressionTests" fullname="Orchard.Tests.ProgressRegressionTests" classname="Orchard.Tests.ProgressRegressionTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.017272" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1062" name="CorruptedPrimarySaveFallsBackToLastValidBackup" fullname="Orchard.Tests.ProgressRegressionTests.CorruptedPrimarySaveFallsBackToLastValidBackup" methodname="CorruptedPrimarySaveFallsBackToLastValidBackup" classname="Orchard.Tests.ProgressRegressionTests" runstate="Runnable" seed="1479862006" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.010170" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1066" name="CropCollectionCannotBeReplacedByPresentation" fullname="Orchard.Tests.ProgressRegressionTests.CropCollectionCannotBeReplacedByPresentation" methodname="CropCollectionCannotBeReplacedByPresentation" classname="Orchard.Tests.ProgressRegressionTests" runstate="Runnable" seed="282179979" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.002203" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1064" name="FailedTransactionDoesNotPublishProgressChange" fullname="Orchard.Tests.ProgressRegressionTests.FailedTransactionDoesNotPublishProgressChange" methodname="FailedTransactionDoesNotPublishProgressChange" classname="Orchard.Tests.ProgressRegressionTests" runstate="Runnable" seed="1105666944" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.000754" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1061" name="LegacySavePreservesCurrencyLevelsAndManagement" fullname="Orchard.Tests.ProgressRegressionTests.LegacySavePreservesCurrencyLevelsAndManagement" methodname="LegacySavePreservesCurrencyLevelsAndManagement" classname="Orchard.Tests.ProgressRegressionTests" runstate="Runnable" seed="398774912" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.001722" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1065" name="UnknownUpgradeCannotSpendCurrency" fullname="Orchard.Tests.ProgressRegressionTests.UnknownUpgradeCannotSpendCurrency" methodname="UnknownUpgradeCannotSpendCurrency" classname="Orchard.Tests.ProgressRegressionTests" runstate="Runnable" seed="553872631" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.000517" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1063" name="UpgradePreviewMatchesNextHarvestWithoutMutatingProgress" fullname="Orchard.Tests.ProgressRegressionTests.UpgradePreviewMatchesNextHarvestWithoutMutatingProgress" methodname="UpgradePreviewMatchesNextHarvestWithoutMutatingProgress" classname="Orchard.Tests.ProgressRegressionTests" runstate="Runnable" seed="1736098420" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.000414" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1067" name="WalletRejectsNegativeCostsAndPayments" fullname="Orchard.Tests.ProgressRegressionTests.WalletRejectsNegativeCostsAndPayments" methodname="WalletRejectsNegativeCostsAndPayments" classname="Orchard.Tests.ProgressRegressionTests" runstate="Runnable" seed="1511426926" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.000419" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1068" name="StatModifierTests" fullname="Orchard.Tests.StatModifierTests" classname="Orchard.Tests.StatModifierTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.001286" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1069" name="BuffSourcesReplaceAndRemoveIndependently" fullname="Orchard.Tests.StatModifierTests.BuffSourcesReplaceAndRemoveIndependently" methodname="BuffSourcesReplaceAndRemoveIndependently" classname="Orchard.Tests.StatModifierTests" runstate="Runnable" seed="337185849" result="Passed" start-time="2026-10-14 17:12:53Z" end-time="2026-10-14 17:12:53Z" duration="0.000831" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

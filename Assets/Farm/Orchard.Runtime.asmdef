@@ -1,0 +1,9 @@
+{
+  "name": "Orchard.Runtime",
+  "rootNamespace": "Orchard",
+  "references": [
+    "Orchard.Domain",
+    "Unity.TextMeshPro",
+    "Unity.ugui"
+  ]
+}

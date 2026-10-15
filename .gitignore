@@ -1,0 +1,15 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/Builds/
+*.csproj
+*.sln
+*.user
+.DS_Store
+demo-interview-4.5.apk
+/TestResults/
+/.vs/
+/.idea/
+*.keystore
